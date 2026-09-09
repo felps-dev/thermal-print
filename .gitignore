@@ -41,5 +41,7 @@ print-to-com4.tsx
 
 # Claude
 .claude
+!.claude/
+!.claude/settings.json
 
 packages/docs/.vitepress/cache/*
