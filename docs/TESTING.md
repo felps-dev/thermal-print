@@ -1,5 +1,9 @@
 # Testing the React-PDF to ESC/POS Library
 
+When inspecting a generated PDF, extract its text with `pdftotext` before textual
+analysis. Render its pages separately when visual layout is under review; do not
+treat the PDF binary as readable text.
+
 ## Quick Test Options
 
 ### 1. Save to File Only (Default)
